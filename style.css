@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden; /* Remove a rolagem lateral/horizontal */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+
+    padding: 20px;
+    margin: 20px;
+
+    position: relative;
+    z-index: 1;
+}
+
+nav#link-top > a {
+    padding: 0px 20px;
+    margin: 0px 20px;
+    color: black;
+    font-size: 1.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+main {
+    /* display: flex;
+    justify-content: space-between;
+    
+    overflow: hidden;*/
+    width: 100vw;
+    min-height: 600px;
+    background-color: white;
+    position: relative;
+}
+
+div.cor-fundo {
+    height: 350px;
+    width: 48%;
+    background-color: antiquewhite;
+    border-radius: 0 0 0 45%;
+
+    position: absolute;
+    top: -150px;
+    right: 0px;
+    z-index: 0;
+}
+
+div#segunda-cor {
+    position: absolute;
+    top: 150px;
+    right: -150px;
+
+    border-radius: 45% 0 0 400%;
+}
+
+div#terceira-cor {
+    position: absolute;
+    top: 300px;
+    right: -500px;
+    border-radius: 70% 0 0 100%;
+}
+
+div.conteiner-flex {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 25px;
+}
+
+aside#img {
+    width: 600px;
+    height: 500px;
+    background: url(imagens/Viajante\ elegante\ com\ malas\ e\ chapéu人體藝術-300.png);
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
