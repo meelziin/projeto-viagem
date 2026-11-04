@@ -160,7 +160,7 @@ aside#img {
 }
 
 aside#servicos {
-    min-height: 400px;
+    min-height: 480px;
     padding: 15px 20px; /* Espaço padrão do site "todo" */
     margin: 0px 10px;
 }
@@ -168,6 +168,7 @@ aside#servicos {
 div#conteiner-servicos {
     display: flex;
     justify-content: space-between;
+    margin: 20px 0px;
 }
 
 div.categoria-servicos {
@@ -177,12 +178,14 @@ div.categoria-servicos {
 }
 
 div.categoria-servicos h2 {
+    color: var(--letra-padrao);
     font-size: 1rem;
     font-weight: normal;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 div.categoria-servicos h3 {
+    color: var(--letra-padrao);
     font-size: 2.4rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 20px;
@@ -197,12 +200,14 @@ div.servicos-destaque {
 }
 
 div.servicos-destaque h4 {
+    color: var(--letra-padrao);
     font-size: 1rem;
     padding: 15px 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 div.servicos-destaque p {
+    color: var(--letra-padrao);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -239,9 +244,9 @@ div.servicos-destaque p {
 }
 
 aside#destinos {
-    min-height: 400px;
+    min-height: 700px;
     padding: 15px 20px; /* Espaço padrão do site "todo" */
-    margin: 0px 10px;
+    margin: 0px 10px 20px 10px;
 }
 
 div.categoria-destino {
@@ -250,13 +255,140 @@ div.categoria-destino {
 }
 
 div.categoria-destino h2 {
+    color: var(--letra-padrao);
     font-size: 1rem;
     font-weight: normal;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 div.categoria-destino h3 {
+    color: var(--letra-padrao);
+    font-size: 2.4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 40px;
+}
+
+div#conteiner-destino {
+    display: flex;
+    justify-content: center;
+}
+
+div.top-destinos {
+    padding: 0px 20px;
+    margin: 0px 10px;
+}
+
+div.top-destinos img {
+    width: 300px;
+    height: 350px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+div.pais-destino {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+}
+
+div.pais-destino h4 {
+    color: var(--letra-padrao);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+}
+
+div.pais-destino p {
+    color: var(--letra-padrao);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+div.tempo-viagem {
+    display: flex;
+}
+
+div.txt-destino {
+    padding: 5px 10px 30px 10px;
+    margin-top: -5px;
+    border-radius: 0px 0px 15px 15px;
+    background-color: white;
+}
+
+#roma {
+    margin-top: 3px;
+    font-size: 0.9rem;
+}
+
+#londres {
+    margin-top: 3px;
+    font-size: 0.9rem;
+}
+
+#europa {
+    margin-top: 3px;
+    font-size: 0.9rem;
+}
+
+div.tempo-viagem p {
+    color: var(--letra-padrao);
+    padding-left: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+}
+
+aside#guia {
+    min-height: 550px;
+    padding: 20px 20px; /* Espaço padrão do site "todo" */
+    margin: 30px 10px 10px 10px;
+}
+
+div#conteiner-guia {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+div#titulo-guia {
+    padding-left: 30px;
+}
+
+div#titulo-guia h2 {
+    color: var(--letra-padrao);
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 20px;
+}
+
+div#titulo-guia h3 {
+    color: var(--letra-padrao);
     font-size: 2.4rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 20px;
+}
+
+div.txt-guia {
+    padding: 30px 20px 0px 0px;
+}
+
+div.txt-guia h4 {
+    padding-bottom: 5px;
+    color: var(--letra-padrao);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div.txt-guia p {
+    padding-bottom: 5px;
+    color: var(--letra-padrao);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div#foto-guia {
+    width: 80%;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+div#foto-guia img {
+    width: 100%;
+    height: 350px;
+    border-radius: 15px;
 }
