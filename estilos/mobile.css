@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 button.menu-hamburguer {
     display: flex;
     flex-direction: column;
@@ -43,4 +47,43 @@ nav.menu {
 
 nav.menu.ativo {
     display: flex;
+}
+
+aside#texto-top {
+    width: 100vw;
+    z-index: 1;
+}
+
+div.texto {
+    padding: 15px 20px;
+    margin: 0px 15px 0px 15px; /* Tamanho padrão */
+}
+
+div.texto h1 {
+    font-size: 0.9rem;
+}
+
+div.texto h2 {
+    font-size: 2rem;
+}
+
+aside#img {
+    display: none;
+}
+
+div.cor-fundo {
+    height: 200px;
+    width: 40%;
+    top: -150px;
+    right: 0px;
+}
+
+div#segunda-cor {
+    top: 30px;
+    right: -50px;
+}
+
+div#terceira-cor {
+    top: 100px;
+    right: -120px;
 }
