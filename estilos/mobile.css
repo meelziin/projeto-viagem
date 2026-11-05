@@ -69,6 +69,10 @@ aside#texto-top {
     z-index: 1;
 }
 
+div.texto p {
+    line-height: 24px;
+}
+
 main {
     min-height: 480px;
 }
@@ -92,19 +96,21 @@ aside#img {
 
 div.cor-fundo {
     height: 200px;
-    width: 40%;
+    width: 45%;
     top: -150px;
     right: 0px;
 }
 
 div#segunda-cor {
+    width: 30%;
     top: 30px;
-    right: -50px;
+    right: 0px;
 }
 
 div#terceira-cor {
+    width: 10%;
     top: 100px;
-    right: -120px;
+    right: 0px;
 }
 
 div.categoria-servicos h3 {
@@ -139,11 +145,29 @@ div.top-destinos {
     margin: 40px 10px;
 }
 
-aside#guia {
-    background: url("../imagens/sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
-    background-size: 100% 210px;
-    background-repeat: no-repeat;
+#ft-guia {
+    padding: 20px 10px;
     border-radius: 15px 15px 0px 0px;
+    background-image: url("../imagens/sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 60% 20%;
+}
+
+aside#guia {
+    width: 100vw;
+    padding: 0px;
+    margin: 0px;
+}
+
+div#conteiner-guia {
+    padding: 0px;
+    margin: 0px;
+}
+
+div#titulo-guia {
+    padding: 0px;
+    margin: 0px 10px;
 }
 
 div#titulo-guia h3 {
@@ -153,6 +177,10 @@ div#titulo-guia h3 {
 div#titulo-guia h3 {
     text-shadow: 1px 1px 1px solid black;
     font-size: 2rem;
+}
+
+div.txt-guia {
+    padding: 20px 20px;
 }
 
 div#foto-guia {
