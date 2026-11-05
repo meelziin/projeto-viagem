@@ -3,18 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/estilos/style.css">
+    <link rel="stylesheet" href="/estilos/mobile.css" media="(max-width: 768px)">
     <link rel="shortcut icon" href="imagens/Logo de Viagem J com Globo e Avião.png" type="image/x-icon">
     <title>Hadoo</title>
 </head>
 <body>
     <header>
         <h1>Hadoo</h1>
-        <nav id="link-top">
-            <a href="#">Destinos</a>
+
+        <button class="menu-hamburguer" id="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="menu" id="menu">
+            <a href="#destinos">Destinos</a>
             <a href="#">Hotels</a>
-            <a href="#">Voos</a>
-            <a href="#">Livros</a>
+            <a href="#guia">Guia</a>
+            <a href="#servicos">Serviços</a>
             <a href="#">Login</a>
             <a href="#">Cadastro</a>
         </nav>
@@ -180,7 +188,8 @@
             </div>
         </div>
     </aside>
-</body>
 
-<script src="https://kit.fontawesome.com/b1158b1db6.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b1158b1db6.js" crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
+</body>
 </html>

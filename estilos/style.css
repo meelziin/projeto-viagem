@@ -15,6 +15,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 20px;
     background-color: var(--fundo-padrao);
@@ -33,15 +37,19 @@ header {
     z-index: 1;
 }
 
+button.menu-hamburguer {
+    display: none;
+}
+
 header h1 {
     color: var(--letra-padrao);
 }
 
-nav#link-top {
+nav#menu {
     align-content: center;
 }
 
-nav#link-top a {
+nav#menu a {
     padding: 5px 20px;
     margin: 0px 20px;
     color: var(--letra-padrao);
@@ -54,7 +62,7 @@ nav#link-top a {
     border: 1px solid transparent; /* Já ocupa o espaço impedindo o texto de se deslocar */
 }
 
-nav#link-top a:hover {
+nav#menu a:hover {
     border: 1px solid var(--letra-padrao); /* Muda apenas a cor */
     padding: 5px 20px;
     border-radius: 5px;
@@ -153,7 +161,7 @@ div#terceira-cor {
 aside#img {
     width: 600px;
     height: 500px;
-    background: url(imagens/Viajante\ elegante\ com\ malas\ e\ chapéu人體藝術-300.png);
+    background: url(/imagens/Viajante\ elegante\ com\ malas\ e\ chapéu人體藝術-300.png);
     background-repeat: no-repeat;
     position: relative;
     z-index: 1;
