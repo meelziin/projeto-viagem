@@ -148,7 +148,7 @@ div.top-destinos {
 }
 
 #ft-guia {
-    padding: 20px 10px;
+    padding: 20px 20px;
     border-radius: 15px 15px 0px 0px;
     background-image: url("../imagens/sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
     background-size: 100% auto;
@@ -170,10 +170,6 @@ div#conteiner-guia {
 div#titulo-guia {
     padding: 0px;
     margin: 0px 10px;
-}
-
-div#titulo-guia h3 {
-    text-shadow: 1px 1px 1px solid black;
 }
 
 div#titulo-guia h3 {
