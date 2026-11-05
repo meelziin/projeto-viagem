@@ -1,3 +1,14 @@
+@charset "UTF-8";
+
+:root {
+    --letra-destaque: #DD664E;
+    --letra-padrao: #161648;
+    --fundo-padrao: #f5f5f5;
+    --fundo-destaque: #FFF1DA;
+    --cor-destaque: #F0A600;
+    --cor-hover: #d89504;
+}
+
 body {
     margin: 0px;
 }
@@ -14,7 +25,7 @@ button.menu-hamburguer {
 button.menu-hamburguer span {
     width: 28px;
     height: 3px;
-    background: #19194d;
+    background: var(--letra-padrao);
     transition: 0.5s;
 }
 
@@ -40,9 +51,13 @@ nav.menu {
     top: 100%;
     right: 0;
     width: 100%;
-    background: #fff0d9;
+    background-color: var(--fundo-destaque);
     padding: 20px;
     gap: 20px;
+}
+
+nav#menu a {
+    color: var(--letra-padrao);
 }
 
 nav.menu.ativo {
@@ -122,4 +137,24 @@ div#conteiner-destino {
 div.top-destinos {
     padding: 0px 20px;
     margin: 40px 10px;
+}
+
+aside#guia {
+    background: url("../imagens/sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
+    background-size: 100% 210px;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0px 0px;
+}
+
+div#titulo-guia h3 {
+    text-shadow: 1px 1px 1px solid black;
+}
+
+div#titulo-guia h3 {
+    text-shadow: 1px 1px 1px solid black;
+    font-size: 2rem;
+}
+
+div#foto-guia {
+    display: none;
 }
