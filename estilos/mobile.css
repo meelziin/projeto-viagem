@@ -54,17 +54,21 @@ aside#texto-top {
     z-index: 1;
 }
 
+main {
+    min-height: 480px;
+}
+
 div.texto {
     padding: 15px 20px;
     margin: 0px 15px 0px 15px; /* Tamanho padrão */
 }
 
-div.texto h1 {
+div.texto h1 { /* Valor padrão do h1/h2 */
     font-size: 0.9rem;
 }
 
 div.texto h2 {
-    font-size: 2rem;
+    font-size: 2rem; /* Valor padrão do h2/h3 */
 }
 
 aside#img {
@@ -86,4 +90,36 @@ div#segunda-cor {
 div#terceira-cor {
     top: 100px;
     right: -120px;
+}
+
+div.categoria-servicos h3 {
+    font-size: 2rem;
+}
+
+aside#servicos {
+    min-height: 480px;
+    padding: 0px; /* Espaço padrão do site "todo" */
+    margin: 0px 0px 50px 0px;
+}
+
+div#conteiner-servicos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 20px 0px;
+}
+
+div.categoria-destino h3 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+div#conteiner-destino {
+    flex-wrap: wrap;
+}
+
+div.top-destinos {
+    padding: 0px 20px;
+    margin: 40px 10px;
 }
